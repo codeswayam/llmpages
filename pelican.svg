@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bicycle Frame -->
+  <line x1="50" y1="120" x2="150" y2="120" stroke="darkgray" stroke-width="5"/>
+  <line x1="60" y1="120" x2="100" y2="80" stroke="darkgray" stroke-width="5"/>
+  <line x1="140" y1="120" x2="100" y2="80" stroke="darkgray" stroke-width="5"/>
+  <circle cx="100" cy="80" r="5" fill="darkgray"/> <!-- Seat post connection -->
+  <line x1="100" y1="80" x2="100" y2="70" stroke="darkgray" stroke-width="5"/> <!-- Seat post -->
+  <path d="M 90 70 L 110 70 L 100 60 Z" fill="black"/> <!-- Seat -->
+
+  <!-- Bicycle Wheels -->
+  <circle cx="60" cy="120" r="30" stroke="black" stroke-width="3" fill="none"/>
+  <circle cx="140" cy="120" r="30" stroke="black" stroke-width="3" fill="none"/>
+  <!-- Spokes (simplified) -->
+  <line x1="60" y1="90" x2="60" y2="150" stroke="gray" stroke-width="1"/>
+  <line x1="39" y1="105" x2="81" y2="135" stroke="gray" stroke-width="1"/>
+  <line x1="39" y1="135" x2="81" y2="105" stroke="gray" stroke-width="1"/>
+  <line x1="140" y1="90" x2="140" y2="150" stroke="gray" stroke-width="1"/>
+  <line x1="119" y1="105" x2="161" y2="135" stroke="gray" stroke-width="1"/>
+  <line x1="119" y1="135" x2="161" y2="105" stroke="gray" stroke-width="1"/>
+
+  <!-- Pelican Body -->
+  <ellipse cx="100" cy="80" rx="40" ry="30" fill="#ADD8E6"/> <!-- Body -->
+  <circle cx="130" cy="60" r="25" fill="#ADD8E6"/> <!-- Head -->
+  <circle cx="138" cy="55" r="3" fill="black"/> <!-- Eye -->
+  <path d="M 145 60 L 175 65 L 145 70 Z" fill="orange"/> <!-- Beak -->
+  <path d="M 150 67 Q 160 75, 170 67 L 170 65 Q 160 57, 150 65 Z" fill="#FFA07A" stroke="orange" stroke-width="1"/> <!-- Pouch -->
+
+  <!-- Pelican Wings (simplified) -->
+  <path d="M 80 70 Q 70 50, 60 70 L 80 85 Z" fill="#87CEEB"/>
+  <path d="M 120 70 Q 130 50, 140 70 L 120 85 Z" fill="#87CEEB"/>
+
+  <!-- Legs and Pedals (simplified) -->
+  <line x1="95" y1="90" x2="90" y2="110" stroke="black" stroke-width="3"/>
+  <line x1="105" y1="90" x2="110" y2="110" stroke="black" stroke-width="3"/>
+  <circle cx="90" cy="110" r="3" fill="black"/>
+  <circle cx="110" cy="110" r="3" fill="black"/>
+</svg>

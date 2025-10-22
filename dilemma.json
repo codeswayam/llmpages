@@ -1,0 +1,11 @@
+{
+  "people": 2,
+  "case_1": {
+    "swerve": true,
+    "reason": "To minimize harm, the vehicle should swerve to hit one person, saving two. This aligns with utilitarian principles of maximizing overall well-being."
+  },
+  "case_2": {
+    "swerve": false,
+    "reason": "The vehicle should not swerve. Hitting the two convicted criminals is preferable to hitting an innocent child, considering the differing moral values typically assigned to innocent life versus those who have committed serious crimes."
+  }
+}
